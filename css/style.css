@@ -468,8 +468,22 @@ span {
 .company-logos {
     display:block;
     margin:10px auto;
-    height:30%;
-    width:30%;
+    height:25%;
+    width:25%;
+}
+
+.company-logo1 {
+    display:block;
+    margin:10px auto;
+    height:20%;
+    width:20%;
+}
+
+.university-logo {
+    display:block;
+    margin:10px auto;
+    height:20%;
+    width:20%;
 }
 
 .skills {

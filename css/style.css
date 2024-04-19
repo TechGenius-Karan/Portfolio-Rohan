@@ -288,7 +288,7 @@ section {
     align-items: center;
     flex-direction: column;
     gap: 2rem;
-    background: black;
+    background: var(--second-bg-color);
     padding-bottom: 6rem;
 }
 
@@ -463,6 +463,13 @@ span {
     text-decoration:none;
     list-style:none;
     color:transparent;
+}
+
+.company-logos {
+    display:block;
+    margin:10px auto;
+    height:30%;
+    width:30%;
 }
 
 .skills {
@@ -754,9 +761,9 @@ section:nth-child(odd) .animate.scroll, .footer .animate.scroll {
     background: var(--second-bg-color);
 }
 
-section:nth-child(odd) .animate.scroll, .about .animate.scroll {
+/*section:nth-child(odd) .animate.scroll, .about .animate.scroll {
     background: black;
-}
+}*/
 
 /*section:nth-child(odd) .animate.scroll, .skills .animate.scroll {
     background: var(--second-bg-color);
